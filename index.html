@@ -153,73 +153,28 @@
     </div>
 </section>
 
-<section class="events section-padding wp4" id="events">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <h3 class="header">Prices</h3>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-6 col-sm-12 col-xs-12 leftcol">
-                <div>
-                    <p><strong>Prices</strong></p>
+<section class="events wp4" id="events">
 
-                    <h5>service <span class="time">optional span</span></h5>
-                    <p>This is about service</p>
-                </div>
-                <div>
-                    <h5>service <span class="time">optional span</span></h5>
-                    <p>This is about service</p>
-                </div>
-            </div>
-            <div class="col-md-6 col-sm-12 col-xs-12 rightcol">
-                <div>
-                    <p><strong>Prices</strong></p>
-
-                    <h5>service <span class="time">optional span</span></h5>
-                    <p>This is about service</p>
-                </div>
-                <div>
-                    <h5>service <span class="time">optional span</span></h5>
-                    <p>This is about service</p>
-                </div>
-            </div>
+    <input type="checkbox" name="dialog_state" id="dialog_state" class="dialog_state">
+    <div id='dialog'>
+      <label id="dlg-back" for="dialog_state"></label>
+      <div id='dlg-wrap'>
+        <label id="dlg-close" for="dialog_state"><i class="icon ion-ios-close-empty"></i></label>
+        <h2 id='dlg-header'>Are you sure?</h2>
+        <div id='dlg-content'>You are about to kill a puppy, that's some serious shit. Have you really thought this through?</div>
+        <div id='dlg-prompt'>
+          <div class='button positive'><i class="icon ion-ios-checkmark-empty"></i> Yes, let's do it!</div>
+          <div class='button'><i class="icon ion-ios-close-empty"></i> No, I'll reconsider</div>
         </div>
-        <div class="row section-padding">
-            <div class="col-md-4 col-md-offset-4 text-center">
-                <a class="btn btn-accent btn-small" data-toggle="modal" data-target="#dc-modal">
-                    <i class="fa fa-barcode"></i>&nbsp;&nbsp;More prices
-                </a>
-            </div>
-        </div>
-        <!--<div class="row">
-            <div class="col-xs-12 section-border section-padding">
-            </div>
-        </div>-->
+      </div>
     </div>
-
-    <div id="dc-modal" class="modal fade" tabindex="-1" role="dialog">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-body">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span>&times;</span>
-                    </button>
-                    <h3 class="text-center section-padding">More Prices</h3>
-                    
-                    <h5>service <span class="time">optional span</span></h5>
-                    <p>This is about service</p>
-
-                    <h5>service <span class="time">optional span</span></h5>
-                    <p>This is about service</p>
-
-                    <h5>service <span class="time">optional span</span></h5>
-                    <p>This is about service</p>
-                </div>
-            </div><!-- /.modal-content -->
-        </div><!-- /.modal-dialog -->
-    </div><!-- /.modal -->
-
+    <main id='main' class='main_area'>
+      <div class='center'>
+        <label class="button" for="dialog_state"><i class="icon ion-ios-upload-outline
+          "></i> Open the dialog</label>
+      </div>
+    <div id='console'></div>
+    </main>
 </section>
 
 <section id="instagram" class="section-padding wp5">
