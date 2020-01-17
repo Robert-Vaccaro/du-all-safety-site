@@ -256,9 +256,38 @@
     footer .footer-links {
         margin: 120px 0 120px 0;
     }
+    .container22 {
+        position: absolute;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        left: 50%;
+    
+    }
+    .title {
+        font-weight: 800;
+        color: transparent;
+        font-size: 120px;
+        background: url("https://phandroid.s3.amazonaws.com/wp-content/uploads/2014/05/rainbow-nebula.jpg") repeat;
+        background-position: 40% 50%;
+        -webkit-background-clip: text;
+        position: relative;
+        text-align: center;
+        line-height: 90px;
+        letter-spacing: -8px;
+    }
+    .subtitle {
+        display: block;
+        text-align: center;
+        text-transform: uppercase;
+        padding-top: 10px;
+    }
 }
 
 @media screen and (max-width: 640px) {
+    .modal-dialog{
+        width: 100%;
+    }
     .hero .hero-content {
         padding-top: 100%;
     }
@@ -294,7 +323,32 @@
     footer .footer-links {
         margin: 50px 0 50px 0;
     }
-
+    .container22 {
+        position: absolute;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        left: 50%;
+        top:50%
+    }
+    .title {
+        font-weight: 800;
+        color: transparent;
+        font-size: 40px;
+        background: url("https://phandroid.s3.amazonaws.com/wp-content/uploads/2014/05/rainbow-nebula.jpg") repeat;
+        background-position: 40% 50%;
+        -webkit-background-clip: text;
+        position: relative;
+        text-align: center;
+        line-height: 40px;
+        letter-spacing: -5px;
+    }
+    .subtitle {
+        display: block;
+        text-align: center;
+        text-transform: uppercase;
+        padding-top: 10px;
+    }
 }
 
 @media screen and (max-width: 480px) {
@@ -358,7 +412,33 @@
     .down-arrow {
         display: none;
     }
-
+    .container22 {
+        position: absolute;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        left: 50%;
+        top:35%
+    
+    }
+    .title {
+        font-weight: 800;
+        color: transparent;
+        font-size: 40px;
+        background: url("https://phandroid.s3.amazonaws.com/wp-content/uploads/2014/05/rainbow-nebula.jpg") repeat;
+        background-position: 40% 50%;
+        -webkit-background-clip: text;
+        position: relative;
+        text-align: center;
+        line-height: 40px;
+        letter-spacing: -5px;
+    }
+    .subtitle {
+        display: block;
+        text-align: center;
+        text-transform: uppercase;
+        padding-top: 10px;
+    }
 }
 
 @media screen and (max-width: 320px) {
