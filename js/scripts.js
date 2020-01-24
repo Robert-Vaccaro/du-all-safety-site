@@ -215,7 +215,7 @@ $(document).ready(function () {
         },
         data: {
             // Event title
-            title: "Appointment with James",
+            title: "Appointment with ",
 
             // Event start date
             //start: new Date(''),
@@ -228,10 +228,10 @@ $(document).ready(function () {
             //end: new Date(''),
 
             // Event Address
-            address: 'James Address',
+            address: ' Address',
 
             // Event Description
-            description: "This is about your appointment with James"
+            description: "This is about your appointment with "
         }
     });
 
