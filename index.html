@@ -48,7 +48,7 @@
                     <nav>
                         <ul class="primary-nav">
                             <li><a href="#invitation">About</a></li>
-                            <li><a href="#intro">Events</a></li>
+                            <li><a href="#intro">Trainings</a></li>
                             <li><a href="#events">Clients</a></li>
                             <!-- <li><a href="#instagram">Social Media</a></li> -->
                             <li><a href="#eng-pics">Pictures</a></li>
@@ -65,9 +65,13 @@
         </header>
         
     </section>
+    <div class="image-head">
+        <img class="head-img" src="img/image001.png" alt="Logo">
+    </div>
     <div class="container">
 
         <div class="row">
+            
             <div class="col-sm-4 hidden-xs"></div>
             
             <!--<div class="col-sm-4 hidden-xs text-center"><a href="#rsvp" class="btn btn-accent btn-large rsvp-btn">Contact Us</a></div>-->
@@ -84,7 +88,7 @@
                 <div class="row">
                         <div class="col-md-10 col-md-offset-1">
                             <div class="hero-content text-center">
-                                <img class="logo-icon head-img" src="img/image001.png" alt="Logo">
+
                             </div>
                         </div>
                     </div>
@@ -98,27 +102,77 @@
 
 </section>
 <!-- ABOUT US  -->
+
 <section id="invitation" class="section-padding wp3 text-center">
     
     <h3 class="aboutus section-title">About Us</h3>
     <p>Du-All Safety provides quality environmental health and safety services to the public and private sectors in California and throughout the United States.</p>
-    <button class="rot-bu rot-bu-two" onclick="moreAboutUs()">More About Us</button>
+    
+    <button class="btn55" style="vertical-align:middle" onclick="moreAboutUs()"><span class="btn-class">About Us</span></button>
     <br>
     <br>
-    <button class="rot-bu rot-bu-two" onclick="quickLinks()">Quick Links</button>
+    <button class="btn55" onclick="quickLinks()"><span class="btn-class">Quick Links</span></button>
     <br>
     <br>
-    <button class="rot-bu rot-bu-two" onclick="generalSupport()">Request A Packet</button>
+    <button class="btn55" onclick="generalSupport()"><span class="btn-class">Packet Request</span></button>
     <br>
     <br>
-    <button id="eng-pics" class="rot-bu rot-bu-two" onclick="galleryPics()">Picture Gallery</button>
+    <button id="eng-pics" class="btn55" onclick="galleryPics()"><span class="btn-class">Photos</span></button>
 </section>
 <!-- EVENTS -->
 <section id="intro" class="wp1 text-center">
         <h3 class="event-list section-title">Upcoming Open Enrollment Classes</h3>
         <p>Review our schedule and reserve your seat today.</p>
-        <button class="rot-bu rot-bu-two" onclick="eventList()">See Event List</button>   
+        <button class="btn55" onclick="eventList()"><span class="btn-class">Training Classes</span></button>   
 </section>
+
+<!-- 
+<form name="jksearch" action="http://www.google.com/search" method="get" onSubmit="jksitesearch(this)">
+
+    <p>Search:<br />
+    <input id="hiddenquery" type="hidden" name="q" />
+    <input name="qfront" type="text" style="width: 200px" value="navigator object" /> <input type="submit" value="Search" /><br />
+    <div style="font: bold 11px Verdana;">Google:<input name="se" type="radio" checked>  Yahoo:<input name="se" type="radio">  MSN:<input name="se" type="radio">
+    </div>
+    
+    <script type="text/javascript">
+    
+    // All-in-one Internal Site Search script- By JavaScriptKit.com (http://www.javascriptkit.com)
+    // For this and over 400+ free scripts, visit JavaScript Kit- http://www.javascriptkit.com/
+    // This notice must stay intact for use
+    
+    //Enter domain of site to search.
+    var domainroot=""
+    
+    var searchaction=[ //form action for the 3 search engines
+    "http://www.google.com/search",
+    "http://search.yahoo.com/search",
+    "http://search.msn.com/results.aspx"
+    ]
+    
+    var queryfieldname=["q","p","q"] //name of hidden query form for the 3 search engines
+    
+    function switchaction(cur, index){
+    cur.form.action=searchaction[index]
+    document.getElementById("hiddenquery").name=queryfieldname[index]
+    }
+    
+    function jksitesearch(curobj){
+    for (i=0; i< document.jksearch.se.length; i++){ //loop through radio to see which is checked
+    if (document.jksearch.se[i].checked==true)
+    switchaction(document.jksearch.se[i], i)
+    }
+    document.getElementById("hiddenquery").value=""+domainroot+" "+curobj.qfront.value
+    }
+    
+    
+    </script>
+    
+    </p>
+    
+    </form> -->
+
+
 <!-- QUICK LINKS -->
 <section class="events wp4 text-center" id="events">
 
@@ -127,7 +181,7 @@
 <section class="insta wp5 text-center" id="instagram">
         <h3 class="section-title">Recent Success</h3>
         <p>Du-All Safety has assisted many municipalities and companies across California to implement safety programs, plans of action, and to train their employees to meet required standards</p>
-        <button class="rot-bu rot-bu-two" onclick="quickLinks1()">Full Client List</button>
+        <button class="btn55" onclick="clientList()"><span class="btn-class">Client List</span></button>
     
         
 </section>
@@ -247,7 +301,7 @@
                     <div class="row">
                         <div class="col-md-12" id="alert-wrapper"></div>
                     </div>
-                    <button class="rot-bu rot-bu-two">Send</button>
+                    <button class="btn55"><span class="btn-class">Send</span></button>
                 </form>
             </div>
         </div>
@@ -276,7 +330,6 @@
         </div>
     </footer>
 </section>
-
 
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>

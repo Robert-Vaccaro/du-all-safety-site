@@ -406,7 +406,6 @@
         position: relative;
         text-align: center;
         line-height: 40px;
-        letter-spacing: -5px;
     }
     .subtitle {
         display: block;
@@ -500,7 +499,6 @@
         position: relative;
         text-align: center;
         line-height: 40px;
-        letter-spacing: -5px;
     }
     .subtitle {
         display: block;
@@ -575,6 +573,9 @@
           }
           .custom-select{
               padding-left: 25px;
+          }
+          .btn55 {
+              width: 200px;
           }
 }
 
