@@ -921,7 +921,6 @@ header .member-actions {
 #map-content-wrapper {
 	position: relative;
 	margin-top: -502px;
-	margin-bottom: 150px
 }
 
 #map-content {
@@ -1745,52 +1744,49 @@ background: linear-gradient(to right, #0ABFBC, #FC354C);
 				margin-bottom: 20px;
 				margin-top: 50px;
 		}
-
-}
-.btn55 {
-	display: inline-block;
-	border-radius: 4px;
-	background: linear-gradient(90deg, rgba(139, 160, 223, 0.712) 0%, rgba(72, 89, 173, 0.644) 91%, rgba(55, 70, 139, 0.699) 100%);
-	border: 2px solid black;
-	color: black;
-	text-align: center;
-	font-size: 28px;
-	padding: 20px;
-	width: 300px;
-	transition: all 0.5s;
-	cursor: pointer;
-	margin: 5px;
-	-webkit-box-shadow: 6px 6px 5px 0px rgba(49, 38, 38, 0.75);
-	-moz-box-shadow: 6px 6px 5px 0px rgba(0,0,0,0.75);
-	box-shadow: 6px 6px 5px 0px rgba(0,0,0,0.75);
-  }
-  
-  .btn55 .btn-class {
-	cursor: pointer;
-	display: inline-block;
-	position: relative;
-	transition: 0.5s;
-  }
-  
-  .btn55 .btn-class:after {
-	content: '\00bb';
-	position: absolute;
-	opacity: 0;
-	top: 0;
-	right: -20px;
-	transition: 0.5s;
-  }
-  
-  .btn55:hover .btn-class {
-	padding-right: 25px;
-  }
-  
-  .btn55:hover .btn-class:after {
-	opacity: 1;
-	right: 0;
-  }
-
+	}
   .image-head{
 	  padding-top:275px;
 	  text-align: center;
   }
+.client-list{
+	list-style: circle;
+}
+
+.new-bu {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: black;
+    background: linear-gradient(90deg, rgba(150,150,150,1) 0%, rgba(140,140,140,1) 35%, rgba(140,140,140,1) 63%, rgba(87,86,87,1) 95%);	
+    border: none;
+    border-radius: 2px;
+    box-shadow: 0 9px rgb(87, 87, 87);
+  }
+  .btn-class{
+	  padding-right: 20px;
+  }
+  .new-bu:hover {background: #c7c7c7}
+
+  .new-bu:active {
+    background-color: rgb(180, 180, 180);
+    box-shadow: 0 5px rgb(87, 87, 87);
+	transform: translateY(4px);
+	transition: .2s ease-in-out;
+  }
+  .fa-address-card{
+	  color: rgb(250, 68, 68);
+	  font-size: 32px;
+  }
+  .fa-link{
+	color: rgb(250, 68, 68);
+	font-size: 32px;
+}
+.material-icons{
+	color: rgb(134, 170, 248);
+	font-size: 40px;
+}
