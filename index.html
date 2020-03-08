@@ -50,10 +50,10 @@
                         <ul class="primary-nav">
                             <li><a href="#invitation">About</a></li>
                             <li><a href="#intro">Trainings</a></li>
-                            <li><a href="#events">Clients</a></li>
-                            <!-- <li><a href="#instagram">Social Media</a></li> -->
-                            <li><a href="#eng-pics">Pictures</a></li>
-                            <li class="hidden-sm hidden-xs"><a href="#video-bg">Videos</a></li>
+                            <li><a href="#events">Compliance</a></li>
+                            <li class="hidden-sm hidden-xs"><a href="#eng-pics">Equipment</a></li>
+                            <li><a href="#video-bg">Photos</a></li>
+
                             <li><a href="#map" class="login">Map/Location</a></li>
                             <li><a href="#rsvp" class="">Contact Us</a></li>
                         </ul>
@@ -66,9 +66,7 @@
         </header>
         
     </section>
-    <div class="image-head">
-        <img class="head-img" src="img/image001.png" alt="Logo">
-    </div>
+
     <div class="container">
 
         <div class="row">
@@ -107,73 +105,24 @@
 <section id="invitation" class="section-padding wp3 text-center">
     
     <h3 class="aboutus section-title">About Us</h3>
-    <p>Du-All Safety provides quality environmental health and safety services to the public and private sectors in California and throughout the United States.</p>
+    <div class="about-paragraph">
+    <p>Du-All Safety provides quality environmental health and safety services to the public and private sectors in California and throughout the United States. Du-All Safety assists businesses with Federal OSHA, CAL/OSHA, and environmental compliance. Services include: safety inspections, chemical safety, written OSHA program assessments/development, hands-on OSHA training, online safety training, online safety consulting and webinars, environmental health permits, hazardous waste training & OSHA certification, CUPA hazardous materials business plans and much more.</p>
+    </div>
+    <br>
+    <br>
+    <button class="new-bu2" onclick="quickLinks()">Quick Links  <i class="fa fa-link fa-lg"></i></button>
+
     
-    <button class="new-bu" style="vertical-align:middle" onclick="moreAboutUs()"><span class="btn-class">About Us</span><i class="fa fa-address-card fa-lg"></i></button>
     <br>
-    <br>
-    <button class="new-bu" onclick="quickLinks()"><span class="btn-class">Quick Links</span><i class="fa fa-link fa-lg"></i></button>
-    <br>
-    <br>
-    <button class="new-bu" onclick="generalSupport()"><span class="btn-class">Packet Request</span><i class="large material-icons" style="font-size: 36px;">library_books</i></button>
-    <br><i class="far fa-newspaper"></i>
-    <br>
-    <button id="eng-pics" class="new-bu" onclick="galleryPics()"><span class="btn-class">Photos</span><i class="material-icons" style="font-size: 36px;">monochrome_photos </i></button>
+    
 
 </section>
 <!-- EVENTS -->
 <section id="intro" class="wp1 text-center">
-        <h3 class="event-list section-title">Upcoming Open Enrollment Classes</h3>
+        <h3 class="event-list section-title">Open Enrollment</h3>
         <p>Review our schedule and reserve your seat today.</p>
-        <button class="new-bu" onclick="eventList()"><span class="btn-class">Training Classes</span></button>   
+        <button class="new-bu2" onclick="trainings()">Training Classes<i class="fa fa-book" aria-hidden="true"></i></button>   
 </section>
-
-<!-- 
-<form name="jksearch" action="http://www.google.com/search" method="get" onSubmit="jksitesearch(this)">
-
-    <p>Search:<br />
-    <input id="hiddenquery" type="hidden" name="q" />
-    <input name="qfront" type="text" style="width: 200px" value="navigator object" /> <input type="submit" value="Search" /><br />
-    <div style="font: bold 11px Verdana;">Google:<input name="se" type="radio" checked>  Yahoo:<input name="se" type="radio">  MSN:<input name="se" type="radio">
-    </div>
-    
-    <script type="text/javascript">
-    
-    // All-in-one Internal Site Search script- By JavaScriptKit.com (http://www.javascriptkit.com)
-    // For this and over 400+ free scripts, visit JavaScript Kit- http://www.javascriptkit.com/
-    // This notice must stay intact for use
-    
-    //Enter domain of site to search.
-    var domainroot=""
-    
-    var searchaction=[ //form action for the 3 search engines
-    "http://www.google.com/search",
-    "http://search.yahoo.com/search",
-    "http://search.msn.com/results.aspx"
-    ]
-    
-    var queryfieldname=["q","p","q"] //name of hidden query form for the 3 search engines
-    
-    function switchaction(cur, index){
-    cur.form.action=searchaction[index]
-    document.getElementById("hiddenquery").name=queryfieldname[index]
-    }
-    
-    function jksitesearch(curobj){
-    for (i=0; i< document.jksearch.se.length; i++){ //loop through radio to see which is checked
-    if (document.jksearch.se[i].checked==true)
-    switchaction(document.jksearch.se[i], i)
-    }
-    document.getElementById("hiddenquery").value=""+domainroot+" "+curobj.qfront.value
-    }
-    
-    
-    </script>
-    
-    </p>
-    
-    </form> -->
-
 
 <!-- QUICK LINKS -->
 <section class="events wp4 text-center" id="events">
@@ -181,34 +130,48 @@
 </section>
 <!-- Recent Sucesses and pictures -->
 <section class="insta wp5 text-center" id="instagram">
-        <h3 class="section-title">Recent Success</h3>
-        <p>Du-All Safety has assisted many municipalities and companies across California to implement safety programs, plans of action, and to train their employees to meet required standards</p>
-        <button class="new-bu" onclick="clientList()"><span class="btn-class">Client List</span></button>
-    
+        <br>
+        <br>
+        <h3 class="section-title">Compliance</h3>
+        <button class="new-bu2" onclick="envComp()">Environmental Compliance<i class="fa fa-gavel" aria-hidden="true"></i></button>
+        <br>
+        <br>
+        <button class="new-bu2" onclick="conComp()">Construction Compliance<i class="fa fa-gavel" aria-hidden="true"></i></button>
+        <br>
+        <br>
+        <button class="new-bu2" onclick="genComp()">General Industry Compliance<i class="fa fa-gavel" aria-hidden="true"></i></button>
+        <br>
+        <br>
         
 </section>
 
 <section id="eng-pics" class="section-padding wp6">
+        <h3 class="equipment section-title">Equipment</h3>
+        <br>
+        <div class="brochure text-center">
+        <iframe allowfullscreen="true" frameborder="0" height="350" src="https://brojure.com/embed/m1/ohnomLwWCUkZE0qeRbXGnQ/" width="270"></iframe>
 
 
+        <iframe allowfullscreen="true" frameborder="0" height="350" src="https://brojure.com/embed/m1/WdX7pUpFB9Ki88bBxZKJtw/" width="270"></iframe>
+
+
+        <iframe allowfullscreen="true" frameborder="0" height="350" src="https://brojure.com/embed/m1/gUuGg6BTsgrZ8GRpgBeP7A/" width="270"></iframe>
+
+        <br>
+        <a href="https://brojure.com/du-all-safety-products-services/" target="_blank"><button class="new-bu2"><span class="btn-class">All Brochures</span><i class="fa fa-map" aria-hidden="true"></i></button></a>
+        
+        </div>
 </section>
 
 <section id="video-bg" class="hidden-sm hidden-xs wp9">
-    <div id="bgndVideo" class="player"
-         data-property="{videoURL:'https://www.youtube.com/watch?v=fkps18H3SXY',containment:'#video-bg',autoPlay:true, mute:true, showControls:false, startAt:80, stopAt:259, opacity:1}">
-    </div>
     <div id="video-content">
-        <h5>Check Out Our Company Video Trainings Here</h5>
-
+        <button id="eng-pics" class="new-bu2" onclick="galleryPics()"><span class="btn-class">Photos</span><i class="fa fa-camera-retro" aria-hidden="true"></i></button>
     </div>
 </section>
 <br>
 <br>
 <section id="map" class="section-padding wp7">
-    <div class="text-center">
-        <h3 class="section-title">Location</h3>
-    </div>
-    <div id="map-canvas"></div>
+
     <div id="map-content-wrapper" class="container pointer-events-none">
         <div class="row">
             <div class="col-xs-offset-1 col-xs-10 col-md-offset-3 col-md-6">
@@ -231,7 +194,8 @@
                         </div>
                     </div>
                     <div class="row text-center">
-                        <a class="" id="btn-show-map"><img class="google-map-icon" style="width:50px" src="img/google-map-img.png"></img></a>
+                        <div class="google-map-icon"><a href="https://www.google.com/maps/place/Du-All+Safety/@37.4956538,-121.93062,16.92z/data=!4m5!3m4!1s0x0:0x608ee0bf33279a28!8m2!3d37.4957671!4d-121.9295096" target="_blank"><img class="google-map-icon" style="width:50px" src="img/google-map-img.png"><p>Click Here</p></img>
+                        </a></div>
                     </div>
                 </div>
             </div>
@@ -240,70 +204,17 @@
 </section>
 
 <section class="rsvp text-center wp8" id="rsvp">
-
-    <div id="rsvp-modal" class="modal fade" tabindex="-1" role="dialog">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-body">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span>&times;</span>
-                    </button>
-                    <div class="section-padding">
-                        <p>Please add this to your calender and Have a great day!</p>
-                        <div class='user-infor'></div>
-                        <div id="add-to-cal"></div>
-                    </div>
-                </div>
-            </div><!-- /.modal-content -->
-        </div><!-- /.modal-dialog -->
-    </div><!-- /.modal -->
     <div class="container">
         <div class="row">
             <div class="col-md-6 col-md-offset-3 section-padding">
                 <h3 class="section-title">Get in contact</h3>
                 <p>Send your information to contact and get started with Du-All Safety</p>
-                <form id="rsvp-form" class="rsvp-form"
-                      action=""
-                      method="POST">
-                    <div class="row">
-                            <div class="col-md-6 col-sm-6">
-                                    <div class="form-input-group">
-                                        <i class="fa fa-user"></i><input name="name" class=""
-                                                                         placeholder="Your name"
-                                                                         >
-                                    </div>
-                                </div>
-                        <div class="col-md-6 col-sm-6">
-                            <div class="form-input-group">
-                                <i class="fa fa-envelope"></i><input type="email" name="email" class=""
-                                                                     placeholder="Your email"
-                                                                     >
-                            </div>
-                        </div>
-                        
-                    </div>
-                    <div class="row">
-                        <div class="col-md-6 col-sm-6">
-                            <div class="form-input-group">
-                                <i class="fa fa-users"></i><input type="number" name="extras" class="" min="0"
-                                                                  max="4"
-                                                                  placeholder="Placeholder for input"
-                                                                  >
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-sm-6">
-                            <div class="form-input-group">
-                                <i class="fa fa-key"></i><input type="number" name="invite_code" id="invite_code"
-                                                                class="" min="0"
-                                                                placeholder="Placeholder for input"
-                                                                >
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-12" id="alert-wrapper"></div>
-                    </div>
-                    <button class="new-bu"><span class="btn-class">Send</span></button>
+                    <button class="new-bu2" onclick="generalSupport()"><span class="btn-class">Request More Info</span><i class="fa fa-info-circle" aria-hidden="true"></i></button>
                 </form>
+                <br>
+                <br>
+                <button class="new-bu2" onclick="packetRequest()"><span class="btn-class">Packet Request</span><i class="fa fa-paper-plane-o" aria-hidden="true"></i></button>
+                <br>
             </div>
         </div>
     </div>
@@ -312,11 +223,9 @@
     <br>
     <div class="row section-padding">
             <div class="social-center">
-            <div class="dankicon">
+            <div class="media-icons">
             <i class="fa fa-5x fa-facebook-square"></i>
             <i class="fa fa-5x fa-linkedin-square"></i>
-            <i id="insta" class="fa fa-5x fa-instagram" aria-hidden='true'></i>
-            <i class="fa fa-5x fa-snapchat-square"></i>
             </div> 
             </div>
         </div>
@@ -325,7 +234,7 @@
             <div class="row">
                 <div class="col-sm-12 text-center content">
                     <span class="to-top-wrapper"><a href="#top" class="to-top"><i class="fa fa-angle-up"></i></a></span>
-                    <p>Site Created by <a href="https://www.robertvaccaro.com/">Robert Vaccaro</a></p>
+                    <p>Site Created by <a href="https://www.robertvaccaro.com/" target="_blank">Robert Vaccaro</a></p>
                 </div>
             </div>
         </div>
@@ -345,24 +254,7 @@
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
 
-<script async defer 
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAVQAAjqDBZDVMqEq7u546AZXXkgi_94iw&callback=initMap"></script>
-<!-- Google Analytics -->
-<script>
-    (function (i, s, o, g, r, a, m) {
-        i['GoogleAnalyticsObject'] = r;
-        i[r] = i[r] || function () {
-            (i[r].q = i[r].q || []).push(arguments)
-        }, i[r].l = 1 * new Date();
-        a = s.createElement(o),
-            m = s.getElementsByTagName(o)[0];
-        a.async = 1;
-        a.src = g;
-        m.parentNode.insertBefore(a, m)
-    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
-    ga('create', 'UA-46465113-4', 'auto');
-    ga('send', 'pageview');
-</script>
+
 </body>
 </html>
 
