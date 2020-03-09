@@ -896,7 +896,7 @@ header .member-actions {
 
 #video-bg {
 	height: 600px;
-	background-image: url('/img/billboard_11.jpg');
+	background-image: url('../img/billboard_11.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 }
@@ -922,7 +922,7 @@ header .member-actions {
 }
 #map{
  
-	background-image: url('/img/billboard_6.jpg');
+	background-image: url('../img/billboard_6.jpg');
 	background-repeat: no-repeat;
 	background-size: cover; 
 }
