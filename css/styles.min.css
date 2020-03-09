@@ -896,7 +896,7 @@ header .member-actions {
 
 #video-bg {
 	height: 600px;
-	background-image: url('../../img/billboard_10.jpg');
+	background-image: url('/img/billboard_10.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 }
@@ -922,7 +922,7 @@ header .member-actions {
 }
 #map{
  
-	background-image: url('../../img/billboard_5.jpg');
+	background-image: url('/img/billboard_5.jpg');
 	background-repeat: no-repeat;
 	background-size: cover; 
 }
@@ -1344,28 +1344,28 @@ display: block;
 		padding: 10px;
 	  }
 	  
-	  .media-icons i:nth-child(1) {
+	  .media-icons a:nth-child(1) {
 		color: #4867AA;
 		cursor: pointer;
 		text-shadow: 0px 7px 10px rgba(0, 0, 0, 0.4);
 		transition: all ease-in-out 150ms;
 	  }
 	  
-	  .media-icons i:nth-child(1):hover {
+	  .media-icons a:nth-child(1):hover {
 		padding:5px;
 		margin-top: -10px;
 		text-shadow: 0px 16px 10px rgba(0, 0, 0, 0.3);
 		transform: translate(0, -8);
 	  }
 	  
-	  .media-icons i:nth-child(2) {
+	  .media-icons a:nth-child(2) {
 		color: #1DA1F2;
 		cursor: pointer;
 		text-shadow: 0px 7px 10px rgba(0, 0, 0, 0.4);
 		transition: all ease-in-out 150ms;
 	  }
 	  
-	  .media-icons i:nth-child(2):hover {
+	  .media-icons a:nth-child(2):hover {
 		padding:5px;
 		margin-top: -10px;
 		text-shadow: 0px 16px 10px rgba(0, 0, 0, 0.3);
@@ -1833,14 +1833,14 @@ background: linear-gradient(to right, #0ABFBC, #FC354C);
 .underline{
 	text-decoration-line: underline;
 }
-.fa{
-	padding-left:10px;
-}
+
 .fa-book{
-	color:rgb(253, 226, 72)
+	color:rgb(253, 226, 72);
+	padding-left:10px;
 }
 
 .fa-gavel{
+	padding-left:10px;
 	color:blue
 }
 
