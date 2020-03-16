@@ -356,6 +356,7 @@
 }
 
 @media screen and (max-width: 640px) {
+    
     .text-area{
         width:150px;
         height:150px
