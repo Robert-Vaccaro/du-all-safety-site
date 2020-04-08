@@ -1861,3 +1861,8 @@ textarea {
 	  background: none repeat scroll 0 0 #FFFFFF;
 	  outline-width: 0;
   }
+
+  .live-webinars{
+	  width: 100%;
+	  height: 800px;
+  }
