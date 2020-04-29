@@ -353,6 +353,7 @@
     .award{
         padding:275px
     }
+
 }
 
 @media screen and (max-width: 640px) {
@@ -425,6 +426,9 @@
     }
     .new-bu2{
         font-size: 1.2em;
+    }
+    .sds-video{
+        width: 100%
     }
 }
 
