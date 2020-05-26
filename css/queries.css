@@ -46,7 +46,7 @@
     
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1025px) {
     .hero .hero-content {
         padding-top: 50%;
     }
@@ -76,7 +76,11 @@
         text-transform: uppercase;
         padding-top: 10px;
     }
-    
+    .header-content{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 /* Responsive nav kicks in */
@@ -357,7 +361,12 @@
 }
 
 @media screen and (max-width: 640px) {
-    
+    .site-map-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      } 
     .text-area{
         width:150px;
         height:150px

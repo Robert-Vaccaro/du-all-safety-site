@@ -167,7 +167,6 @@ section .header {
 }
 .header-content{
 	width:100%;
-	padding-left: 50px;
 }
 .section-padding {
 	padding: 40px 0
@@ -468,7 +467,7 @@ header a {
 
 header .logo {
 	display: inline-block;
-	padding-left: 50px;
+
 }
 
 
@@ -1889,3 +1888,4 @@ textarea {
   .site-map-content{
 	  display: inline-table
   }
+
