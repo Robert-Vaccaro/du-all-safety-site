@@ -404,8 +404,8 @@ section .header {
 }
 
 .hero {
-	min-height: 750px;
-	background: url("../img/health-and-safety-428386999.jpg") center center;
+	min-height: 1150px;
+	background: url("../img/safety-header-image.jpg") center center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
