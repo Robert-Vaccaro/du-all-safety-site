@@ -34,6 +34,7 @@ font & reset css
 reset
 --------------------------------------------- 
 */
+
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, div
 pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q,
 s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li,
@@ -42,6 +43,10 @@ figure, header, nav, section, article, aside, footer, figcaption {
   padding: 0;
   border: 0;
   outline: 0;
+}
+
+header {
+  background-color: #fffafa;
 }
 
 .clearfix:after {
@@ -128,7 +133,13 @@ html, body {
   border: 1px solid #888;
   max-width: 343px; /* Could be more or less, depending on screen size */
 }
-#myBtn, #myBtn2{
+
+#contactHome, 
+#contactHome2,
+#contactAbout, 
+#contactGallery,
+#contactServices,
+ #contactTrainings{
   cursor: pointer;
 }
 /* The Close Button */
@@ -244,16 +255,22 @@ body {
   padding-top: 15px;
 }
 
+.created-by::selection {
+  background-color: #ff796c;
+  font-weight: 600;
+  color: white;
+}
+
 .created-by  a{
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
   padding: 13px 26px;
-  background-color: white;
+  background-color: #fd6355;
   border-radius: 15px;
   font-weight: 600;
-  color: black;
+  color: white;
 }
 .created-by  a:hover{
   display: flex;
@@ -261,9 +278,9 @@ body {
   flex-direction: column;
   align-items: center;
   padding: 13px 26px;
-  background-color: rgb(217, 203, 203);
+  background-color: #ff786b;
   border-radius: 15px;
-  color: black;
+  color: white;
 }
 .created-by-container{
   background-color: #ddd;
@@ -311,7 +328,7 @@ header
   top: 0px;
   left: 0px;
   right: 0px;
-  box-shadow: 0px 0px 10px rgba(0,0,0,0.15)!important;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.3)!important;
 }
 
 .logo-nav{
@@ -332,7 +349,6 @@ header
 }
 
 .header-area {
-  background-color: #fff;
   position: fixed;
   top: 0px;
   left: 0px;
@@ -748,8 +764,19 @@ banner
 --------------------------------------------- 
 */
 
+#gallery{
+  height: auto;
+    padding-top: 50px;
+    width: 100%;
+}
+
 #top {
   padding-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
 }
 
 #top .col-lg-4,
@@ -774,10 +801,12 @@ banner
   top: 50%;
   transform: translate(-50%, -50%);
   left: 50%;
+  width: 200px;
 }
 
 #top .left-content h4 {
-  font-family: 'Dancing Script', cursive;
+  /* font-family: 'Dancing Script', cursive; */
+  text-transform: uppercase;
   color: #fff;
   font-size: 54px;
   font-weight: 700;
@@ -858,6 +887,8 @@ banner
 }
 
 .Modern-Slider .NextArrow {
+  padding-left: 10px;
+  padding-bottom: 5px;
   position:absolute;
   top:50%;
   transform: translateY(-25px);
@@ -887,6 +918,8 @@ banner
 }
 
 .Modern-Slider .PrevArrow {
+  padding-right: 10px;
+  padding-bottom: 5px;
   position:absolute;
   top:50%;
   transform: translateY(-25px);
@@ -1008,7 +1041,6 @@ menu
 
 #trainings {
   margin-top: 120px;
-  background-color: #fffafa;
   padding: 120px 0px;
 }
 
@@ -1445,7 +1477,9 @@ reservation
   color: #2a2a2a;
 }
 .section {
+  /* height: 100%; */
   padding-top: 50px;
+  /* padding-bottom: 250px; */
 }
 /*
 ---------------------------------------------
@@ -1578,6 +1612,9 @@ footer {
   margin-top: 60px;
   padding: 25px 0px;
   background-color: #fb5849;
+  position: relative;
+  bottom: 0;
+  width: 100%;
 }
 
 footer .left-text-content p {
@@ -1642,7 +1679,6 @@ responsive
 @media (max-width: 992px) {
   #top {
     padding-top: 100px;
-    height: auto;
   }
   .header-area .main-nav .nav li.submenu:after {
     right: 3px;
