@@ -766,7 +766,6 @@ banner
 
 #gallery{
   height: auto;
-    padding-top: 50px;
     width: 100%;
 }
 
@@ -985,8 +984,7 @@ about
 */
 
 #services {
-  margin-top: 20px;
-  padding: 100px 0px 0px 0px;
+
   position: relative;
   z-index: 9;
 }
@@ -1477,15 +1475,9 @@ reservation
   color: #2a2a2a;
 }
 .section {
-  /* height: 100%; */
-  padding-top: 50px;
-  /* padding-bottom: 250px; */
+  padding-top: 25px;
 }
-/*
----------------------------------------------
-offers
----------------------------------------------
-*/
+
 
 #offers {
 
