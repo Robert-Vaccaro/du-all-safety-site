@@ -79,9 +79,9 @@ html[xmlns] .clearfix {
 .sds a {
   display: flex;
   justify-content: center;
-  border-style: solid;
+  /* border-style: solid;
   border-width: 1px;
-  border-color: #888;
+  border-color: #888; */
   border-radius: 3px;
 }
 
@@ -187,15 +187,14 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
-::selection {
-  background: #fb5849;
+/* ::selection {
   color: #fff;
-}
+} */
 
-::-moz-selection {
+/* ::-moz-selection {
   background: #fb5849;
   color: #fff;
-}
+} */
 
 @media (max-width: 991px) {
 
@@ -217,8 +216,8 @@ body {
 }
 
 .main-white-button a {
-  color: #fb5849;
-  background-color: #fff;
+  color: white;
+  background-color: #fb5849;
   padding: 12px 25px;
   display: inline-block;
   border-radius: 3px;
@@ -816,20 +815,24 @@ banner
 .home-con{
   height: 100vh;
   background-image: url("../images/safety-header-image.jpeg");
+  background-repeat: round;
 }
+
 .home-container{
 display: flex;
 justify-content: center;  
 align-items: center;
 text-transform: uppercase;
-color: #fff;
+color: black;
 margin-top: 35px;
 padding: 15px;
 font-weight: 700;
 height: 250px;
 border-radius: 10px;
-background-color: #fb5849;
+background-color: white;
+box-shadow: 1px 1px 10px rgba(0,0,0,0.5)!important;
 }
+
 .inner-home-container{
   display: flex;
   justify-content: space-evenly;  
