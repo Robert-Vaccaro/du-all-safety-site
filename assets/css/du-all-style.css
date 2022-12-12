@@ -807,9 +807,13 @@ banner
   height: 100vh;
 }
 .home-con{
-  height: 100vh;
+  height: 100%;
+  width: auto;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   background-image: url("../images/safety-header-image.jpeg");
-  background-repeat: round;
 }
 
 .home-container{
